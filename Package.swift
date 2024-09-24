@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "Clickstream",
     platforms: [
-        .iOS(.v13),
+        .iOS(.v14),
     ],
     products: [
         .library(
@@ -16,8 +16,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "Clickstream",
-            url: "https://developers.sber.ru/docs/files/clickstream/clickstream-analytics.zip",
-            checksum: "7ba120d4eaa496104c9b77a77056db98f3b2630588266fb5e12376fe37180fa4"
+            url: "https://developers.sber.ru/docs/assets/files/clickstream-analytics-dynamic-v-1-5-0-e27ff45ed94d01209d1d24b17a573abd.zip",
+            checksum: "420ca9de1c366e0639f4a9b52d6f238378aa7b301f7d17394dbcb2bbd2039251"
         )
     ]
 )
