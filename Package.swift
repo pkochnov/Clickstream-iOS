@@ -16,7 +16,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "Clickstream",
-            url: "https://developers.sber.ru/docs/assets/files/clickstream-analytics-dynamic-v-1-5-0-e27ff45ed94d01209d1d24b17a573abd.zip",
+            url: "https://cdn-app.sberdevices.ru/misc/0.0.0/assets/bsm-docs/clickstream-analytics-dynamic-v-1-5-0.zip",
             checksum: "420ca9de1c366e0639f4a9b52d6f238378aa7b301f7d17394dbcb2bbd2039251"
         )
     ]
